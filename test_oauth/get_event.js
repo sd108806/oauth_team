@@ -29,7 +29,7 @@ var my_event_string='https://bitbucket.org/api/1.0/repositories/'+ input_path +'
 +"oauth_version="+myoauth.version+"&"
 +'oauth_consumer_key='+myoauth.consumer.public+'&'
 +"oauth_signature="+myoauth.signature
-document.write('my_event_string  ' + my_event_string+'<br/>');
+//document.write('my_event_string  ' + my_event_string+'<br/>');
 
 
 	
