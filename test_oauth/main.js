@@ -26,7 +26,7 @@ document.write('obj_changesets.changesets[0].author  ' + obj_changesets.changese
 document.write('obj_changesets.changesets[0].parents[0]  ' + obj_changesets.changesets[0].parents[0]+ '<br/>');
 document.write('obj_changesets.changesets[0].message  ' + obj_changesets.changesets[0].message+ '<br/>');
 document.write('obj_changesets.changesets[0].size  ' + obj_changesets.changesets[0].size+ '<br/>');
-document.write('obj_changesets.changesets[0].branches[0]  ' + obj_changesets.changesets[0].branches[0]+ '<br/>');
+//document.write('obj_changesets.changesets[0].branches[0]  ' + obj_changesets.changesets[0].branches[0]+ '<br/>');
 
 document.write('sizeof(obj_changesets.changesets[0].files)  '+  sizeof(obj_changesets.changesets[0].files)+ '<br/>'    );
 
