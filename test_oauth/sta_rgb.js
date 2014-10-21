@@ -1,4 +1,4 @@
-function sta_rgb(  obj_changesets     )
+function sta_rgb(   obj_changesets      )
 {
 
 //document.write('obj_changesets.limit in sta_rgb fun'+ obj_changesets.limit + '<br/>');
@@ -73,7 +73,7 @@ sta_arr_rgb[i].b=change_unit_rgb.b;
 
 //document.write( 'sta_arr_rgb[0].rgb i= ' + '   ' +sta_arr_rgb[0].r+ ' '+sta_arr_rgb[0].g+ ' '+sta_arr_rgb[0].b+ '<br/>');
 
-
+document.write('i am here ');
 change_unit_rgb.r=zero_unit_rgb.r;
 change_unit_rgb.g=zero_unit_rgb.g;
 change_unit_rgb.b=zero_unit_rgb.b;
@@ -82,7 +82,7 @@ change_unit_rgb.b=zero_unit_rgb.b;
 
 };
 
-document.write('i am here ');
+
 for (var i=0;i<obj_changesets.limit;i++)
 {
 document.write( 'sta_arr_rgb[i].rgb i= '+ i + '   ' +sta_arr_rgb[i].r+ ' '+sta_arr_rgb[i].g+ ' '+sta_arr_rgb[i].b+ '<br/>');
