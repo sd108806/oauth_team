@@ -28,15 +28,17 @@ document.write('obj_changesets.changesets[0].message  ' + obj_changesets.changes
 document.write('obj_changesets.changesets[0].size  ' + obj_changesets.changesets[0].size+ '<br/>');
 document.write('obj_changesets.changesets[0].branches[0]  ' + obj_changesets.changesets[0].branches[0]+ '<br/>');
 
-document.write('(obj_changesets.changesets[0].files).length  '+  (obj_changesets.changesets[0].files).length+ '<br/>'    );
+document.write('(obj_changesets.changesets[0].files).length  '+  (obj_changesets.changesets[0].files).length+ '<br/>'  + '<br/>'  );
 //document.write('obj_changesets.changesets[20].node ' + obj_changesets.changesets[20].node+ '<br/>');
 
 
+
 var sta_rgb_res=sta_rgb(  obj_changesets    );
+document.write('obj_changesets.changesets.length   '+ obj_changesets.changesets.length + '<br/>');
 
-for (var i=0;i<obj_changesets.limit;i++)
+for (var i=0;i<obj_changesets.changesets.length;i++)
+document.write( 'sta_rgb_res[i].rgb i= '+ i + '   ' +sta_rgb_res[i].r+ ' '+sta_rgb_res[i].g+ ' '+sta_rgb_res[i].b+ '<br/>');
 
-document.write( 'sta_arr_rgb[i].rgb i= '+ i + '   ' +sta_arr_rgb[i].r+ ' '+sta_arr_rgb[i].g+ ' '+sta_arr_rgb[i].b+ '<br/>');
 
 
 

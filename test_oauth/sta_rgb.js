@@ -26,7 +26,7 @@ var   obj_changesets={
 }
 */
 
-document.write('obj_changesets.changesets.length   '+ obj_changesets.changesets.length + '<br/>');
+//document.write('obj_changesets.changesets.length   '+ obj_changesets.changesets.length + '<br/>');
 
 
 
@@ -86,12 +86,11 @@ change_unit_rgb.b=zero_unit_rgb.b;
 
 //document.write('we are there');
 
-
+/*
 for (var i=0;i<obj_changesets.changesets.length;i++)
-{
 document.write( 'sta_arr_rgb[i].rgb i= '+ i + '   ' +sta_arr_rgb[i].r+ ' '+sta_arr_rgb[i].g+ ' '+sta_arr_rgb[i].b+ '<br/>');
-//console.log(  'sta_arr_rgb[i].rgb i= '+ i + '   ' +sta_arr_rgb[i].r+' '+sta_arr_rgb[i].g+' '+sta_arr_rgb[i].b+ '<br/>' );
-}
+*/
+
 
 
 
