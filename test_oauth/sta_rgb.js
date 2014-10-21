@@ -1,7 +1,7 @@
 function sta_rgb(obj_changesets )
 {
 
-document.write('obj_changesets in sta_rgb fun'+ obj_changesets + '<br/>');
+document.write('obj_changesets.limit in sta_rgb fun'+ obj_changesets.limit + '<br/>');
 
 /*
 var   obj_changesets={
