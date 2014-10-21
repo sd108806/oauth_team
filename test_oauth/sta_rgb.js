@@ -86,7 +86,7 @@ change_unit_rgb.b=zero_unit_rgb.b;
 document.write('we are there');
 
 
-for (var k=0;i<obj_changesets.limit;k++)
+for (var k=0;k<obj_changesets.limit;k++)
 {
 document.write( 'sta_arr_rgb[k].rgb k= '+ k + '   ' +sta_arr_rgb[k].r+ ' '+sta_arr_rgb[k].g+ ' '+sta_arr_rgb[k].b+ '<br/>');
 //console.log(  'sta_arr_rgb[i].rgb i= '+ i + '   ' +sta_arr_rgb[i].r+' '+sta_arr_rgb[i].g+' '+sta_arr_rgb[i].b+ '<br/>' );
