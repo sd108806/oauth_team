@@ -48,7 +48,7 @@ var sta_arr_rgb=new Array();
 
 
 
-for (var i=0; i<obj_changesets.limit;i++)
+for(var i=0; i<obj_changesets.limit;i++)
 {
 
 for(var j=0;j< (  (obj_changesets.changesets[i].files).length  );j++)
@@ -79,10 +79,9 @@ change_unit_rgb.g=zero_unit_rgb.g;
 change_unit_rgb.b=zero_unit_rgb.b;
 
 document.write('change_unit_rgb ' +change_unit_rgb.r +change_unit_rgb.g+change_unit_rgb.b);
-
 }
 
-document.write('i am here ');
+document.write('i am here');
 
 /*
 for (var i=0;i<obj_changesets.limit;i++)
