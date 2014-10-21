@@ -1,7 +1,7 @@
 function sta_rgb(obj_changesets)
 {
 
-document.write('obj_changesets.limit in sta_rgb fun'+ obj_changesets.limit + '<br/>');
+document.write('obj_changesets.length in sta_rgb fun'+ obj_changesets.length + '<br/>');
 
 /*
 var   obj_changesets={
@@ -48,7 +48,7 @@ var sta_arr_rgb=new Array();
 
 
 
-for (var i=0; i< obj_changesets.limit;  i++)
+for (var i=0; i< obj_changesets.length;  i++)
 {
 
 for(var j=0;j< (  (obj_changesets.changesets[i].files).length  );j++)
@@ -61,7 +61,7 @@ change_unit_rgb.b++;
 
 if(   obj_changesets.changesets[i].files[j].type=='removed'     )
 change_unit_rgb.g++;
-};
+}
 
 //document.write( 'change_unit_rgb ' +change_unit_rgb.r +change_unit_rgb.g+change_unit_rgb.b+ '<br/>');
 
@@ -81,14 +81,14 @@ change_unit_rgb.b=zero_unit_rgb.b;
 //document.write('change_unit_rgb ' +change_unit_rgb.r +change_unit_rgb.g+change_unit_rgb.b);
 
 //document.write('i am here');
-};
+}
 
-document.write('we are there');
+//document.write('we are there');
 
 
-for (var k=0;k<obj_changesets.limit;k++)
+for (var i=0;i<obj_changesets.length;i++)
 {
-document.write( 'sta_arr_rgb[k].rgb k= '+ k + '   ' +sta_arr_rgb[k].r+ ' '+sta_arr_rgb[k].g+ ' '+sta_arr_rgb[k].b+ '<br/>');
+document.write( 'sta_arr_rgb[i].rgb i= '+ i + '   ' +sta_arr_rgb[i].r+ ' '+sta_arr_rgb[i].g+ ' '+sta_arr_rgb[i].b+ '<br/>');
 //console.log(  'sta_arr_rgb[i].rgb i= '+ i + '   ' +sta_arr_rgb[i].r+' '+sta_arr_rgb[i].g+' '+sta_arr_rgb[i].b+ '<br/>' );
 }
 
