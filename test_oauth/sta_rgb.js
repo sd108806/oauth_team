@@ -1,7 +1,7 @@
 function sta_rgb(obj_changesets)
 {
 
-//document.write('obj_changesets.limit in sta_rgb fun'+ obj_changesets.limit + '<br/>');
+document.write('obj_changesets.limit in sta_rgb fun'+ obj_changesets.limit + '<br/>');
 
 /*
 var   obj_changesets={
@@ -61,7 +61,7 @@ change_unit_rgb.b++;
 
 if(   obj_changesets.changesets[i].files[j].type=='removed'     )
 change_unit_rgb.g++;
-}
+};
 
 //document.write( 'change_unit_rgb ' +change_unit_rgb.r +change_unit_rgb.g+change_unit_rgb.b+ '<br/>');
 
@@ -81,7 +81,7 @@ change_unit_rgb.b=zero_unit_rgb.b;
 //document.write('change_unit_rgb ' +change_unit_rgb.r +change_unit_rgb.g+change_unit_rgb.b);
 
 //document.write('i am here');
-}
+};
 
 document.write('we are there');
 
