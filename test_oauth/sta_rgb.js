@@ -1,7 +1,7 @@
 function sta_rgb(obj_changesets)
 {
 
-document.write('obj_changesets.length in sta_rgb fun'+ obj_changesets.length + '<br/>');
+
 
 /*
 var   obj_changesets={
@@ -26,6 +26,7 @@ var   obj_changesets={
 }
 */
 
+document.write('obj_changesets.changesets.length   '+ obj_changesets.changesets.length + '<br/>');
 
 
 
@@ -48,7 +49,7 @@ var sta_arr_rgb=new Array();
 
 
 
-for (var i=0; i< obj_changesets.length;  i++)
+for (var i=0; i< obj_changesets.changesets.length;  i++)
 {
 
 for(var j=0;j< (  (obj_changesets.changesets[i].files).length  );j++)
@@ -86,7 +87,7 @@ change_unit_rgb.b=zero_unit_rgb.b;
 //document.write('we are there');
 
 
-for (var i=0;i<obj_changesets.length;i++)
+for (var i=0;i<obj_changesets.changesets.length;i++)
 {
 document.write( 'sta_arr_rgb[i].rgb i= '+ i + '   ' +sta_arr_rgb[i].r+ ' '+sta_arr_rgb[i].g+ ' '+sta_arr_rgb[i].b+ '<br/>');
 //console.log(  'sta_arr_rgb[i].rgb i= '+ i + '   ' +sta_arr_rgb[i].r+' '+sta_arr_rgb[i].g+' '+sta_arr_rgb[i].b+ '<br/>' );
