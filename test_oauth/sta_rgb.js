@@ -1,11 +1,31 @@
-
-
-
-
-
 function sta_rgb(obj_changesets )
+{
+
+
+/*
+var   obj_changesets={
+'limit':2,
+'changesets': [
+{
+'files':[{'type':'added',},]
+},
 
 {
+'files':[ {'type':'added',}, {'type':'modified',}]
+
+},
+
+
+]
+}
+*/
+
+
+
+
+
+
+
 zero_unit_rgb={
 'r': 0,
 'g': 0,
@@ -43,8 +63,12 @@ change_unit_rgb=zero_unit_rgb;
 }
 
 for (var i=0;i<obj_changesets.limit;i++)
-document.write( 'sta_arr_rgb[i].rgb '+i+' ' +sta_arr_rgb[i].r+' '+sta_arr_rgb[i].g+' '+sta_arr_rgb[i].b+ '<br/>');
-
+{
+document.write( 'sta_arr_rgb[i].rgb i= '+ i + '   ' +sta_arr_rgb[i].r+ ' '+sta_arr_rgb[i].g+ ' '+sta_arr_rgb[i].b+ '<br/>');
+//console.log(  'sta_arr_rgb[i].rgb i= '+ i + '   ' +sta_arr_rgb[i].r+' '+sta_arr_rgb[i].g+' '+sta_arr_rgb[i].b+ '<br/>' );
+}
 return sta_arr_rgb;
+
+
 
 }
