@@ -79,9 +79,11 @@ change_unit_rgb.g=zero_unit_rgb.g;
 change_unit_rgb.b=zero_unit_rgb.b;
 
 document.write('change_unit_rgb ' +change_unit_rgb.r +change_unit_rgb.g+change_unit_rgb.b);
-}
 
 document.write('i am here');
+}
+
+
 
 /*
 for (var i=0;i<obj_changesets.limit;i++)
