@@ -46,7 +46,7 @@ change_unit_rgb={
 
 var sta_arr_rgb=new Array();
 
-document.write('i am here ');
+
 
 for (var i=0; i<obj_changesets.limit;i++)
 {
@@ -80,13 +80,15 @@ change_unit_rgb.b=zero_unit_rgb.b;
 
 //document.write('change_unit_rgb ' +change_unit_rgb.r +change_unit_rgb.g+change_unit_rgb.b);
 
-}
+};
 
+document.write('i am here ');
 for (var i=0;i<obj_changesets.limit;i++)
 {
 document.write( 'sta_arr_rgb[i].rgb i= '+ i + '   ' +sta_arr_rgb[i].r+ ' '+sta_arr_rgb[i].g+ ' '+sta_arr_rgb[i].b+ '<br/>');
 //console.log(  'sta_arr_rgb[i].rgb i= '+ i + '   ' +sta_arr_rgb[i].r+' '+sta_arr_rgb[i].g+' '+sta_arr_rgb[i].b+ '<br/>' );
 }
+
 return sta_arr_rgb;
 
 
