@@ -3,7 +3,7 @@
 
 
 
-function sta_rgb()
+function sta_rgb(obj_changesets )
 
 {
 zero_unit_rgb={
@@ -20,9 +20,7 @@ change_unit_rgb={
 
 var sta_arr_rgb=new Array();
 
-var w=change_unit_rgb.r+1;
 
-console.log('w is '+w);
 
 for (var i=0; i<obj_changesets.limit;i++)
 {

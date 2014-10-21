@@ -32,7 +32,7 @@ document.write('(obj_changesets.changesets[0].files).length  '+  (obj_changesets
 //document.write('obj_changesets.changesets[20].node ' + obj_changesets.changesets[20].node+ '<br/>');
 
 
-sta_rgb();
+sta_rgb(  obj_changesets    );
 
 
 }
