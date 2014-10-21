@@ -48,7 +48,7 @@ var sta_arr_rgb=new Array();
 
 
 
-for(var i=0; i<obj_changesets.limit;i++)
+for (var i=0; i< obj_changesets.limit;  i++)
 {
 
 for(var j=0;j< (  (obj_changesets.changesets[i].files).length  );j++)
