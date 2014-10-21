@@ -1,4 +1,4 @@
-function sta_rgb(   obj_changesets      )
+function sta_rgb(obj_changesets)
 {
 
 //document.write('obj_changesets.limit in sta_rgb fun'+ obj_changesets.limit + '<br/>');
@@ -63,7 +63,7 @@ if(   obj_changesets.changesets[i].files[j].type=='removed'     )
 change_unit_rgb.g++;
 }
 
-document.write( 'change_unit_rgb ' +change_unit_rgb.r +change_unit_rgb.g+change_unit_rgb.b+ '<br/>');
+//document.write( 'change_unit_rgb ' +change_unit_rgb.r +change_unit_rgb.g+change_unit_rgb.b+ '<br/>');
 
 sta_arr_rgb[i]={};
 sta_arr_rgb[i].r=change_unit_rgb.r;
@@ -71,27 +71,27 @@ sta_arr_rgb[i].g=change_unit_rgb.g;
 sta_arr_rgb[i].b=change_unit_rgb.b;
 
 
-document.write( 'sta_arr_rgb[0].rgb i= ' + '   ' +sta_arr_rgb[0].r+ ' '+sta_arr_rgb[0].g+ ' '+sta_arr_rgb[0].b+ '<br/>');
+//document.write( 'sta_arr_rgb[0].rgb i= ' + '   ' +sta_arr_rgb[0].r+ ' '+sta_arr_rgb[0].g+ ' '+sta_arr_rgb[0].b+ '<br/>');
 
 
 change_unit_rgb.r=zero_unit_rgb.r;
 change_unit_rgb.g=zero_unit_rgb.g;
 change_unit_rgb.b=zero_unit_rgb.b;
 
-document.write('change_unit_rgb ' +change_unit_rgb.r +change_unit_rgb.g+change_unit_rgb.b);
+//document.write('change_unit_rgb ' +change_unit_rgb.r +change_unit_rgb.g+change_unit_rgb.b);
 
-document.write('i am here');
+//document.write('i am here');
 }
 
 document.write('we are there');
 
-/*
+
 for (var i=0;i<obj_changesets.limit;i++)
 {
 document.write( 'sta_arr_rgb[i].rgb i= '+ i + '   ' +sta_arr_rgb[i].r+ ' '+sta_arr_rgb[i].g+ ' '+sta_arr_rgb[i].b+ '<br/>');
 //console.log(  'sta_arr_rgb[i].rgb i= '+ i + '   ' +sta_arr_rgb[i].r+' '+sta_arr_rgb[i].g+' '+sta_arr_rgb[i].b+ '<br/>' );
 }
-*/
+
 
 
 return sta_arr_rgb;

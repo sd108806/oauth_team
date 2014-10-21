@@ -34,5 +34,11 @@ document.write('(obj_changesets.changesets[0].files).length  '+  (obj_changesets
 
 var sta_rgb_res=sta_rgb(  obj_changesets    );
 
+for (var i=0;i<obj_changesets.limit;i++)
+
+document.write( 'sta_arr_rgb[i].rgb i= '+ i + '   ' +sta_arr_rgb[i].r+ ' '+sta_arr_rgb[i].g+ ' '+sta_arr_rgb[i].b+ '<br/>');
+
+
+
 
 }
