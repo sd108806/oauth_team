@@ -83,7 +83,7 @@ document.write('change_unit_rgb ' +change_unit_rgb.r +change_unit_rgb.g+change_u
 document.write('i am here');
 }
 
-
+document.write('we are there');
 
 /*
 for (var i=0;i<obj_changesets.limit;i++)
@@ -92,6 +92,8 @@ document.write( 'sta_arr_rgb[i].rgb i= '+ i + '   ' +sta_arr_rgb[i].r+ ' '+sta_a
 //console.log(  'sta_arr_rgb[i].rgb i= '+ i + '   ' +sta_arr_rgb[i].r+' '+sta_arr_rgb[i].g+' '+sta_arr_rgb[i].b+ '<br/>' );
 }
 */
+
+
 return sta_arr_rgb;
 
 
