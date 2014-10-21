@@ -1,18 +1,23 @@
-function sta_rgb(obj_changesets )
+function sta_rgb(  obj_changesets     )
 {
 
-document.write('obj_changesets.limit in sta_rgb fun'+ obj_changesets.limit + '<br/>');
+//document.write('obj_changesets.limit in sta_rgb fun'+ obj_changesets.limit + '<br/>');
 
 /*
 var   obj_changesets={
-'limit':2,
+'limit':3,
 'changesets': [
 {
 'files':[{'type':'added',},]
 },
 
 {
-'files':[ {'type':'added',}, {'type':'modified',}]
+'files':[ {'type':'added',}, {'type':'modified',},{'type':'modified',}]
+
+},
+
+{
+'files':[ {'type':'removed',}, {'type':'removed',},{'type':'modified',}]
 
 },
 
@@ -46,7 +51,7 @@ var sta_arr_rgb=new Array();
 for (var i=0; i<obj_changesets.limit;i++)
 {
 
-for(var j=0;j<(obj_changesets.changesets[i].files).length;j++)
+for(var j=0;j< (  (obj_changesets.changesets[i].files).length  );j++)
 {
 if(   obj_changesets.changesets[i].files[j].type=='added'     )
 change_unit_rgb.r++;
@@ -58,9 +63,23 @@ if(   obj_changesets.changesets[i].files[j].type=='removed'     )
 change_unit_rgb.g++;
 }
 
+//document.write( 'change_unit_rgb ' +change_unit_rgb.r +change_unit_rgb.g+change_unit_rgb.b+ '<br/>');
 
-sta_arr_rgb[i]=change_unit_rgb;
-change_unit_rgb=zero_unit_rgb;
+sta_arr_rgb[i]={};
+sta_arr_rgb[i].r=change_unit_rgb.r;
+sta_arr_rgb[i].g=change_unit_rgb.g;
+sta_arr_rgb[i].b=change_unit_rgb.b;
+
+
+//document.write( 'sta_arr_rgb[0].rgb i= ' + '   ' +sta_arr_rgb[0].r+ ' '+sta_arr_rgb[0].g+ ' '+sta_arr_rgb[0].b+ '<br/>');
+
+
+change_unit_rgb.r=zero_unit_rgb.r;
+change_unit_rgb.g=zero_unit_rgb.g;
+change_unit_rgb.b=zero_unit_rgb.b;
+
+//document.write('change_unit_rgb ' +change_unit_rgb.r +change_unit_rgb.g+change_unit_rgb.b);
+
 }
 
 for (var i=0;i<obj_changesets.limit;i++)
