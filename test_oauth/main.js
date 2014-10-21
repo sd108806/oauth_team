@@ -29,7 +29,7 @@ document.write('obj_changesets.changesets[0].size  ' + obj_changesets.changesets
 document.write('obj_changesets.changesets[0].branches[0]  ' + obj_changesets.changesets[0].branches[0]+ '<br/>');
 
 document.write('(obj_changesets.changesets[0].files).length  '+  (obj_changesets.changesets[0].files).length+ '<br/>'    );
-document.write('obj_changesets.changesets[20].node ' + obj_changesets.changesets[20].node+ '<br/>');
+//document.write('obj_changesets.changesets[20].node ' + obj_changesets.changesets[20].node+ '<br/>');
 
 
 sta_rgb();
