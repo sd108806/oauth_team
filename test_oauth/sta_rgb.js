@@ -46,7 +46,7 @@ change_unit_rgb={
 
 var sta_arr_rgb=new Array();
 
-
+document.write('i am here ');
 
 for (var i=0; i<obj_changesets.limit;i++)
 {
